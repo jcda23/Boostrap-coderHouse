@@ -1,0 +1,112 @@
+/* ********** Custom Properties ********** */
+:root {
+  --first-color: rgb(56, 176, 0);
+  --first-alpha-color: rgba(56, 176, 0, 0.75);
+  --second-color: #240229;
+  --color-bootstrap1: #54456b;
+  --color-bootstrap1: #db6930;
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --white-color: #fff;
+  --gray-light-color: #f3f3f3;
+  --gray-color: #ccc;
+  --gray-dark-color: #666;
+  --black-color: #000;
+  --text-color: #222;
+  --white-alpha-color: rgba(255, 255, 255, 0.1);
+  --black-alpha-color: rgba(0, 0, 0, 0.3);
+  --font: "Raleway", sans-serif;
+  --max-width: 1200px;
+  --header-height: 5rem;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #240229 !important;
+  opacity: 1 !important;
+  z-index: 999;
+}
+
+.navbar-nav .nav-item>a {
+  color: rgb(238, 243, 235) !important;
+}
+
+.carousel-caption {
+  display: initial !important;
+  position: initial;
+}
+
+.navbar-dark .navbar-toggler {
+  outline: 1px solid white !important;
+  color: white !important;
+  margin-bottom: 10px !important;
+}
+
+.hover-h:hover {
+  background-color: var(--second-color) !important;
+  color: var(--white-color) !important;
+  transition: 0.4s;
+  letter-spacing: 3px;
+}
+
+.hover-f i:hover {
+  border: 2px solid #240229;
+  background-color: #240229;
+  width: 10%;
+}
+
+.hover-n a:hover {
+  color: var(--white-color) !important;
+  transition: 0.4s;
+  letter-spacing: 3px;
+}
+
+
+main {
+  margin-top: 5rem;
+}
+
+.card {
+  max-width: 350px;
+  margin: 0 auto;
+  transition: 0.75s all ease-in-out;
+  height: 144px;
+  padding: 1rem 0;
+}
+
+.card>a {
+  color: var(--first-color);
+}
+
+.social-media a>svg {
+  color: var(--first-color);
+}
+
+.contacto {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+
+.contact-form>* {
+  padding: 0.5rem;
+  margin: 1rem auto;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.control-next {
+
+  opacity: 0 !important;
+
+}
