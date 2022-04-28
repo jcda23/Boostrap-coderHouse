@@ -135,4 +135,8 @@ main {
   .guide {
     height: 14.3vh !important;
   }
+
+  .about p {
+    padding: 0 4rem !important;
+  }
 }
