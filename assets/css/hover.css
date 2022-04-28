@@ -110,3 +110,29 @@ main {
   opacity: 0 !important;
 
 }
+
+/* ********** Version Mobile ********** */
+
+
+@media screen and (max-width: 1280px) {
+
+  .guide {
+    height: 42vh !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .guide {
+    height: 23.5vh !important;
+  }
+}
+
+
+@media screen and (max-width: 376px) {
+
+  .guide {
+    height: 14.3vh !important;
+  }
+}
